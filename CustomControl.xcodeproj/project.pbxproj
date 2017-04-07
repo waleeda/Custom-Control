@@ -12,6 +12,7 @@
 		F5C01C041E931F2C005D99C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C01C021E931F2C005D99C9 /* Main.storyboard */; };
 		F5C01C061E931F2C005D99C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C01C051E931F2C005D99C9 /* Assets.xcassets */; };
 		F5C01C091E931F2C005D99C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C01C071E931F2C005D99C9 /* LaunchScreen.storyboard */; };
+		F5C01C111E931F61005D99C9 /* UISelectionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C01C101E931F61005D99C9 /* UISelectionControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F5C01C051E931F2C005D99C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C01C081E931F2C005D99C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5C01C0A1E931F2C005D99C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C01C101E931F61005D99C9 /* UISelectionControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UISelectionControl.swift; path = ../UISelectionControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				F5C01BFE1E931F2C005D99C9 /* AppDelegate.swift */,
+				F5C01C101E931F61005D99C9 /* UISelectionControl.swift */,
 				F5C01C001E931F2C005D99C9 /* ViewController.swift */,
 				F5C01C021E931F2C005D99C9 /* Main.storyboard */,
 				F5C01C051E931F2C005D99C9 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				F5C01C011E931F2C005D99C9 /* ViewController.swift in Sources */,
 				F5C01BFF1E931F2C005D99C9 /* AppDelegate.swift in Sources */,
+				F5C01C111E931F61005D99C9 /* UISelectionControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
